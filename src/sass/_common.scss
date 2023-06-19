@@ -1,1 +1,47 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    background-color: #0f4dcbe9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.photo-card {
+    width: calc((100% - 50px) / 4);
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.info {
+    display: flex;    
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    // width: calc((100% - 10px) / 4);
+}
+
+.info-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.load-more {
+    display: none;
+    background-color: #0f4dcbe9;
+    color: aliceblue;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+}
